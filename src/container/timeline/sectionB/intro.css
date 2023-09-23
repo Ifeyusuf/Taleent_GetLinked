@@ -1,0 +1,28 @@
+.intro__content{
+    column-gap: 35px;
+    padding: 0 4rem;
+    margin-top: 1.5rem;
+}
+.intro__text{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-left: 1.5rem;
+}
+.intro__info p{
+    font-family: Montserrat;
+    font-size: 14px;
+    color: var(--text-color);
+    font-weight: 400;
+    max-width: 410px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+@media only screen and (max-width:650px){
+    .intro__content{
+        padding: 0 10px;
+    }
+}

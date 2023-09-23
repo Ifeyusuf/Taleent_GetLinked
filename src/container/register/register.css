@@ -1,0 +1,119 @@
+
+.register__image{
+    width: 500px;
+    height: 500px;
+}
+.register__image img{
+    width: 100%;
+    object-fit: cover;
+}
+.register__image-container{
+    position: relative;
+    inset: 0;
+}
+
+.register__purple{
+    position: absolute;
+    top: -30px;
+    left: -70px;
+    z-index: -1;
+}
+.register__bg{
+    background:  url(../../assets/bgprize.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 2.5rem 0;
+}
+.register__input{
+    padding: 0 1.5rem;
+}
+.register__input .reg{
+    font-family: Clash Display;
+    color: var(--mainpurple);
+    margin: 2.5rem 0;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    text-align: left;
+}
+.input__heading p{
+    font-family: Montserrat;
+    font-size: 24px;
+    color: var(--white);
+    margin: 15px 0;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+}
+.input__1{
+    display: flex;
+    flex: 1;
+}
+.custom__input{
+    width: 253px;
+    height: 47px;
+    border-radius: 4px;
+    border: 1px solid var(--white2);
+    background-color: transparent;
+    margin-top: 5px;
+}
+.custom__input:focus{
+    border: none;
+}
+::placeholder{
+    color: var(--white2);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.registar__text-small{
+    margin: 10px 0;
+    text-align: left;
+}
+.registar__text-small p{
+    font-family: Montserrat;
+    color: var(--mainpurple);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 15px 0;
+}
+.register__checkbox p{
+    color: var(--white);
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 10px;
+}
+.register__btn{
+    padding: 1.5rem 0;
+}
+.register__btn button{
+    width: 558px;
+    height: 53px;
+    border-radius: 4px;
+    background: var(--primary);
+    color: var(--white);
+}
+
+
+@media only screen and (max-width:650px){
+    .register__bg{
+        background:  transparent;
+    }
+    .register__image{
+        width: 400px;
+        height: 400px;
+    }
+    .register__btn button{
+        width: 100%;
+        height: 53px;
+    }
+}

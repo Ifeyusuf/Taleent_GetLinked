@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+:root{
+  --primary:linear-gradient(270deg, #903AFF 0%, #D434FE 56.42%, #FF26B9 99.99%, #FE34B9 100%);
+  /* --color-black:black; */
+  --secondary:#150e28;
+  --mainpurple:#d434fe;
+  --main2:#903aff;
+  --white:white;
+  --white2:rgba(255, 255, 255, 1);
+
+  --grey: #AAAAAA;
+  --text-color:rgba(255, 255, 255, 1);
+}
+
+a{
+  color: unset;
+  text-decoration: none;
+}
+
+.heading{
+  background: linear-gradient(0deg, #D434FE, #D434FE),
+linear-gradient(0deg, #FFFFFF, #FFFFFF);
+}

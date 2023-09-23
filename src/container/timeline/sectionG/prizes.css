@@ -1,0 +1,69 @@
+
+.prize__container{
+    padding: 2rem 4.5rem;
+}
+
+.prize__header-img{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.prize__header-img img{
+    width: 20px;
+    height: 20px;
+}
+.prize__header-info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+/* .bg__prize{
+    background: url(../../../assets/bgprize.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.rewardsp{
+    width: 170px;
+    margin-bottom: 15px;
+}
+.position__container{
+    column-gap: 25px;
+    padding: 1.5rem 0;
+}
+.prize__position{
+    width: 450px;
+}
+.prize__position img{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+@media only screen and (max-width:650px){
+    
+.prize__container{
+    padding: 1rem 15px;
+    column-gap: 0;
+}
+.prize__header-info img{
+    width: 250px;
+}
+    .prize__reward img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .prize__position{
+        width: 300px;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .prize__position{
+        width: 450px;
+        margin: 1.5rem auto;
+    }
+
+}

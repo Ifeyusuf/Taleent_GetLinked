@@ -1,0 +1,43 @@
+.subheading__content{
+    width: 100%;
+    padding: 1.5rem 0;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.subheading__title p{
+    font-family: Clash Display;
+    color: var(--white);
+    font-size:32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.subheading__text p{
+    font-family: Clash Display;
+    color: var(--mainpurple);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+@media only screen and (max-width:650px){
+
+    .subheading__title p{
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 40px;
+    }
+    .subheading__text p{
+        font-family: Clash Display;
+        color: var(--mainpurple);
+        font-size: 25px;
+        font-weight: 500;
+        line-height:40px;
+    }
+}

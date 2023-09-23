@@ -1,0 +1,87 @@
+
+.contact__container{
+    padding: 3.5rem 4.5rem;
+}
+.contact__info h1{
+    font-family: Clash Display;
+    color: var(--mainpurple);
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1.5rem 0;
+}
+.contact__info p{
+    max-width: 160px;
+    font-family: Montserrat;
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 2rem 0;
+}
+.follow{
+    color: var(--mainpurple) !important;
+}
+.contact__form{
+    padding: 1.5rem;
+}
+.contact__form p{
+    font-family: Clash Display;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: var(--mainpurple);
+    text-align: left;
+    margin: 5px 0;
+}
+.form .form__input{
+    width: 437px;
+    height: 47px;
+    border-radius: 4px;
+    border: 1px solid var(--white2);
+    background-color: transparent;
+    margin: 1.5rem 0;
+}
+.form ::placeholder{
+    text-align: left;
+    padding: 0 20px;
+}
+.form__message{
+    width: 437px;
+    height: 119px;
+    border-radius: 4px;
+    border: 1px solid var(--white2);
+    margin: 1.5rem 0;
+    background: transparent;
+}
+.contact__btn{
+    text-align: center;
+    margin: 15px 0;
+}
+.contact__btn button{
+    width: 172px;
+    height: 53px;
+    border-radius: 4px;
+    background: var(--primary);
+    border: none;
+    color: var(--white2);
+}
+
+@media only screen and (max-width:650px){
+    
+.contact__container{
+    padding: 3.5rem 0;
+}
+.form .form__input{
+    width: 337px;
+    height: 47px;
+    }
+    .form__message{
+        width: 337px;
+        height: 119px;
+    }
+}
